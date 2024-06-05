@@ -1,0 +1,14 @@
+{
+  "name": "CyChall",
+  "version": "1.0.0",
+  "devDependencies": {
+    "cypress": "13.0.0",
+    "cypress-dotenv": "^2.0.0"
+  },
+  "private": true,
+  "scripts": {
+    "cypress:open": "npx cypress open --env environmentName=cred",
+    "cypress:run": "cypress run",
+    "cypress:verify": "cypress verify"
+  }
+}
