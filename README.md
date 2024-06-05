@@ -2,8 +2,10 @@
 Execution Steps:
 To run the complete suite in headless mode, use the command:
 npx cypress run
+
 To run the individual test in headless mode, use the command:
 npx cypress run --spec cypress/e2e/loginPage.cy.js (spec filename)
+
 To execute in GUI, run the command
 npx cypress open and select the browser, and click on spec filename to run the specific test.
 
