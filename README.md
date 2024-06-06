@@ -1,5 +1,7 @@
 # Cypress exercise
 
+NOTE: Hard wait has been used at few places on purpose so that steps can be seen at time of execution (as else it is too fast for execution). It can be removed after the review.
+
 Rename the .example.env file to .env file.
 
 ## Execution Steps:
